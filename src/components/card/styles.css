@@ -1,0 +1,36 @@
+.flip-container {
+  display: inline-block;
+  border: 1px solid white;
+  background: black;
+  width: 80px;
+  height: 50px;
+}
+
+.flipped {
+  background-color: blue;
+  color: black;
+}
+
+.solved {
+  background-color: yellow;
+  color: black;
+}
+
+.flipper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.front,
+.back {
+}
+
+.back {
+  z-index: 2;
+}
+
+.front {
+}
